@@ -1,0 +1,16 @@
+.container{
+    min-height:calc(95vh - 80px);
+}
+.page-footer{
+    height:80px;
+    text-align: center;
+}
+.btn-search{
+    background-color: #6f1f84;
+}
+.btn-search:hover{
+    background-color: #9361a0;
+}
+.my-cards{
+    background-color: #50165f;
+}
