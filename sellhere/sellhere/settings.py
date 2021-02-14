@@ -75,12 +75,12 @@ WSGI_APPLICATION = 'sellhere.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 if DEBUG:
-    from .auth import USER, PASSWORD
+    from .auth import USER, PASSWORD, NAME
 
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'postgres',
+            'NAME': NAME,
             'USER': USER,
             'PASSWORD': PASSWORD,
             'HOST': 'localhost',
